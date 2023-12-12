@@ -1,2 +1,2 @@
 # bookingApp
-Customer App to be able to book appointments
+Flutter App to book appointments. This App is using Firebase and Provider
