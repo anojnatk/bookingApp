@@ -1,0 +1,59 @@
+import '/providers/search_configuration.dart';
+import 'package:provider/provider.dart';
+
+import '/screens/search_store_screen.dart';
+import 'package:flutter/material.dart';
+
+class SearchInputHome extends StatelessWidget {
+  SearchInputHome({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    SearchConfiguration _searchConfig =
+        Provider.of<SearchConfiguration>(context);
+
+    return Padding(
+      padding: const EdgeInsets.only(
+          top: 20.0, left: 20.0, right: 20.0, bottom: 8.0),
+      child: Container(
+        decoration: BoxDecoration(boxShadow: [
+          BoxShadow(
+              offset: const Offset(12, 26),
+              blurRadius: 50,
+              spreadRadius: 0,
+              color: Colors.grey.withOpacity(.1)),
+        ]),
+        child: TextField(
+          //Do something wi
+
+          onTap: () {
+            Navigator.of(context).pushNamed(SearchStoreScreen.routeName);
+          },
+          onSubmitted: (searchTerm) {},
+          decoration: InputDecoration(
+            prefixIcon: Icon(Icons.search),
+            filled: true,
+            fillColor: Colors.white,
+            hintText: _searchConfig.searchTerm.isEmpty
+                ? 'Search'
+                : _searchConfig.searchTerm,
+            hintStyle: TextStyle(color: Colors.grey),
+            contentPadding:
+                EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+            ),
+            enabledBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.white, width: 1.0),
+              borderRadius: BorderRadius.all(Radius.circular(50.0)),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderSide: BorderSide(color: Colors.white, width: 2.0),
+              borderRadius: BorderRadius.all(Radius.circular(15.0)),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

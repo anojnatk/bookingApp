@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "50516836089",
+    "firebase_url": "https://datetify-ee815-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "datetify-ee815",
+    "storage_bucket": "datetify-ee815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50516836089:android:5eaa9887d1200df8baec28",
+        "android_client_info": {
+          "package_name": "com.datetify.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50516836089-e3m9919jnsj63i8a5jcu283mpug602ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ3ltV0IdzeyA8uxIPHf650gWgJSFAkdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50516836089-e3m9919jnsj63i8a5jcu283mpug602ru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "50516836089-2tvass9getf8rsvar6ajirbosjmfjk8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.datetify.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50516836089:android:033469673a39f835baec28",
+        "android_client_info": {
+          "package_name": "com.datetify.datetifycustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50516836089-e3m9919jnsj63i8a5jcu283mpug602ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ3ltV0IdzeyA8uxIPHf650gWgJSFAkdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50516836089-e3m9919jnsj63i8a5jcu283mpug602ru.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "50516836089-2tvass9getf8rsvar6ajirbosjmfjk8o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.datetify.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

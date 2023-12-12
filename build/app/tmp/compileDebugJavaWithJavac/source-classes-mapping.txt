@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/datetify/customer/BuildConfig.java
+ com.datetify.customer.BuildConfig
